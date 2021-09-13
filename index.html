@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular média</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média</h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+       
+        <div class="box-dados">
+            <label>Insira suas notas</label><br><br>
+            <input type="num" id="nota-1" placeholder="Insira a nota 01 aqui">
+            <input type="num" id="nota-2" placeholder="Insira a nota 02 aqui">
+            <input type="num" id="nota-3" placeholder="Insira a nota 03 aqui"><br><br>
+            <label>Sua média é: </label>
+            <input type="num" id="saida" placeholder="Média final" disabled="disabled"><br><br>
+            <input type="submit" onclick="calcular()" value="Calcular">
+            <div id="aprovacao"></div>
+        </div>
+    </div> 
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+
+
+    <p class="developer">Developed by Gustavo Costa</p>
+    <script src="/script.js"></script>
+</body>
+</html>
